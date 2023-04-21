@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-side-contain {
+
+    display: inline-block;
+    width: 28%;
+    height: 100vh;
+    float: left;
+    position: fixed;
+
+    visibility: visible;
+
+}
+
+.left-side-contain h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.left-side-contain nav ul {
+
+    list-style: none;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+.left-side-contain nav ul li {
+    padding: 10px;
+}
+
+.left-side-contain nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+}
+
+.left-side-contain nav ul :hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+.right-side-contain {
+    float: right;
+    width: 72%;
+    display: inline-block;
+
+}
+
+.right-side-contain .block-1 {
+    display: inline-block;
+    font-size: 0;
+    width: 100%;
+}
+
+.block-1 img {
+    width: 33%;
+    opacity: 0.7;
+
+}
+
+.block-1 img:hover {
+    opacity: unset;
+}
+
+.pages {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pages a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.pages a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.pages a:hover:not(.active) {}
+
+.active {
+    background-color: black;
+    color: white !important;
+}
+
+.sub-contain-1 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: gray;
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+#sub-title-2 {
+
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.sub-sub-contain-1 {
+    width: 65%;
+
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgb(231, 231, 231);
+    height: auto;
+}
+
+.sub-sub-contain-1 img {
+    width: 100%;
+}
+
+#biodata {
+    font-size: 25px;
+
+}
+
+#para-1,
+#person-email,
+#telephone {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#skills {
+    font-size: 20px;
+}
+
+.sub-sub-contain-1 button {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+}
+
+.sub-sub-contain-1 button:hover {
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+
+}
+
+.card-1 {
+    float: left;
+    width: 48%;
+    background-color: green;
+    display: inline-block;
+
+    opacity: 0.6;
+}
+
+.basic {
+    background-color: black;
+    padding: 20px;
+}
+
+.card-1 ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+
+.card-1 ul li {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 12px;
+
+}
+
+
+.card-2 {
+    float: right;
+    width: 48%;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    display: inline-block;
+
+    opacity: 0.6;
+}
+
+.pro {
+    background-color: black;
+    padding: 20px;
+}
+
+.card-2 ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.card-2 ul li {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 12px;
+
+}
+
+#free,
+#paid {
+    text-align: center;
+    font-size: 25px;
+}
+
+#paid {
+    color: white;
+}
+
+.card-1:hover {
+    opacity: unset;
+    box-shadow: 0px 2px 5px black;
+}
+
+.card-2:hover {
+    opacity: unset;
+    box-shadow: 0px 2px 5px black;
+}
+
+.sub-contain-2 {
+    width: 100%;
+
+    margin-bottom: 50px;
+
+}
+
+.sub-sub-contain-2 {
+    width: 80%;
+    margin: 0 auto;
+
+    height: auto;
+
+}
+
+.sub-sub-contain-2 p:first-child {
+    font-size: 25px;
+    text-align: center;
+}
+
+.sub-sub-contain-2 form {}
+
+.sub-sub-contain-2 form input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: unset;
+    border: 1px solid gray;
+
+
+}
+
+.sub-sub-contain-2 form button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.sub-sub-contain-2 form button:hover {
+    background-color: rgb(185, 185, 185);
+    color: black;
+}
+
+
+.sub-contain-3 {
+    width: 100%;
+    display: inline-block;
+    background-color: gray;
+
+}
+
+.sub-div {
+    width: 90%;
+
+    margin: 0 auto;
+
+}
+
+.div-1 {
+    width: 32%;
+    float: left;
+    display: inline-block;
+
+}
+
+.div-1 p:first-child {
+    font-size: 25px;
+
+}
+
+#div-1-text {
+    text-align: start;
+}
+
+.div-2 {
+    width: 36%;
+    display: inline-block;
+
+
+}
+
+.div-2 p:first-child {
+    font-size: 25px;
+
+}
+
+
+.section-1:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.div-3 {
+
+    width: 32%;
+    float: right;
+    display: inline-block;
+
+}
+
+.div-3 p:first-child {
+    font-size: 25px;
+
+}
+
+.div-3 span {
+    background-color: rgb(182, 182, 182);
+
+}
+
+.div-3 .active {
+    background-color: black;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p a:hover {
+    color: rgb(44, 44, 44);
+}
+
+
+@media screen and (max-width:800px) {
+    .left-side-contain {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .right-side-contain {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .block-1 img {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .card-1 {
+        width: 100%;
+        display: block;
+    }
+
+    .card-2 {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .div-1 {
+        width: 100%;
+        display: block;
+    }
+
+    .div-2 {
+        width: 100%;
+        display: block;
+    }
+
+    .div-3 {
+        margin-bottom: 50px;
+        width: 100%;
+        display: block;
+    }
+}
