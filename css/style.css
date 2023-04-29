@@ -14,7 +14,7 @@ body {
     height: 100vh;
     float: left;
     position: fixed;
-
+    background-color: rgb(207, 207, 207);
     visibility: visible;
 
 }
@@ -43,10 +43,19 @@ body {
 
 }
 
-.left-side-contain nav ul :hover {
-    background-color: orange;
+.left-side-contain nav ul li:hover {
+    background-color: rgb(255, 0, 157);
     cursor: pointer;
-}
+} 
+
+
+.left-side-contain nav ul li a:hover {
+    color: white;
+    cursor: pointer;
+} 
+
+
+ 
 
 
 .right-side-contain {
